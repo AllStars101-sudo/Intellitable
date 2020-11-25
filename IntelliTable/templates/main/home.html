@@ -1,0 +1,33 @@
+<!--Intellitable by Chris and Joshua-->
+<head>
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'main/css/style.css' %}">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet"> <!--material design css-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!--material design icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script> <!--material design js-->
+</head>
+
+
+<body class="css-selector">
+    <section id="homesection1">
+        <div class = "animate__animated animate__fadeInUp">
+            <h1 class = "homehead1">Welcome to Intellitable</h1>
+        </div>
+        <a href = "#homesection2">
+            <div class="arrowicondown"><button class="mdc-icon-button material-icons">keyboard_arrow_down</button></div>
+        </a>
+    </section>
+    <section id= "homesection2">
+        <div class = "arrowimagetext animate__animated animate__fadeInUp">
+            <p class = "letsgotext">Let's go</p> 
+            <a href="usrinp"><img class="arrowimage" src="{% static "main/images/arrow.png" %}"></a>
+        </div>
+        
+        
+        <a href = "#homesection1">
+            <div class="arrowiconup"><button class="mdc-icon-button material-icons">keyboard_arrow_up</button></div>
+        </a>
+    </section>
+</body>
