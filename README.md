@@ -18,4 +18,4 @@ Next, type in 'python manage.py runserver' and wait for it to finish system chec
 Now open your browser and type in 'http://127.0.0.1:8000' or 'localhost:8000' to display the contents of the app.
 
 Note: the above commands *must* be written only after ensuring that the Intellitable folder is on your terminal path. To terminate the app, just hit cmd+c or ctrl+c.
-Thank you for using Intellitable. Intellitable is also available at 
+Thank you for using Intellitable.
